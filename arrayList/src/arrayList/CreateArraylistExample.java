@@ -1,0 +1,19 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CreateArraylistExample {
+    public static void main(String[] args) {
+        List<String> animals = new ArrayList<>();
+        //add
+        animals.add("Lion");
+        animals.add("Tiger");
+        animals.add("Cat");
+        animals.add("Dog");
+        System.out.println(animals);
+        animals.add(4,"Elephant");
+        System.out.println(animals);
+
+    }
+}
